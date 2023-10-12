@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito&family=Sofia+Sans&family=Teko&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color: #2F1893;
+}
+
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration:none;
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:30px 10%;
+}
+
+.logo{
+    margin-right:500px;
+    color:white;
+    
+}
+
+.nav_links{
+    list-style-type: none;
+}
+
+.nav_links li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+button{
+    border:0;
+    margin:30px;
+    padding:9px 25px;
+    background-color: #E93A7D;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.major{
+    margin-left:150px;
+    width: 424px;
+    height: 217px;
+    flex-shrink: 0;
+    color: var(--colors-white, #FFF);
+    font-family: DM Sans;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+
+.minor{
+    margin-top:20px;
+    margin-left:150px;
+    width: 363px;
+    color: var(--colors-white, #FFF);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.btn{
+    margin-left:110px;
+    
+}
+form{
+    background:#fff;
+}
+
+p{
+    margin-left:80px;
+    margin-top: 10px;
+    background:#fff;
+    width: 215px;
+    height: 28px;
+    top: 716px;
+    left: 815px;
+
+}
+
+.signup_form{
+    width: 470px;
+    height: 580px;
+    flex-shrink: 0;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    padding:40px;
+    margin:8% auto 0;
+    text-align:center;
+    background:#fff;
+    border-radius: 10px;
+    top: 187px;
+    left: 715px;
+    margin-right:190px;
+    margin-top:-460px;
+}
+
+.signup_form h1{
+    background:#fff;
+    color: #1E0E62;
+    margin-bottom:30px;
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+
+}
+
+.input-box{
+    background:#fff;
+    border-radius:20px;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #999;
+    outline:none;
+    width: 330px;
+    height: 50px;
+    top: 321px;
+    left: 785px;
+
+}
+
+.signup_button{
+    color:#fff;
+    padding:10px;
+    border-radius:100px;
+    font-size:15px;
+    margin:20px 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background-color:#482BE7;
+    width: 330px;
+    height: 50px;
+    top: 525px;
+    left: 785px;
+
+
+}
+
+.twitter_button{
+    color:#fff;
+    padding:10px;
+    border-radius:100px;
+    font-size:15px;
+    margin:20px 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background-color:#1DA1F2;
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+
+.line{
+    color: #25DAC5;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    background:none;
+}
+
+hr{
+    margin:20px;
+    width: 90%;
+    height: 2px;
+}
+
+.or{
+    background:#fff;
+    width:30px;
+    margin:-32px auto 10px;
+}
+
+.checkbox{
+    width:24px;
+    height:24px;
+    background:none;
+    margin-left:-80px;
+    padding:10px;
+}
